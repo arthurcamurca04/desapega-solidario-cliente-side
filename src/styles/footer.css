@@ -1,0 +1,54 @@
+footer.container{
+    height: 160px;
+    background-color: var(--footer-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer.container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+footer.container ul li{
+    margin: 6px;
+}
+
+footer.container ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    
+}
+
+footer.container div.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer.container div.contact-section ul#help-contact li{
+    padding-right: 10px;
+    border-right: 1px solid var(--text-color);
+}
+
+footer.container div.contact-section ul#help-contact li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+footer.container div.contact-section ul#social-networks li{
+    
+    height: 54px;
+    width: 54px;
+    background-color: var(--color-background);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.container div.aboutus-section ul li{
+    text-decoration: underline;
+}

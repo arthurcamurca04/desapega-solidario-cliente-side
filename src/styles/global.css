@@ -1,10 +1,30 @@
+:root{
+    font-size: 80%;
+    --color-background: #f1f1f1;
+    --announcement-background: #a4ece5;
+    --search-area-background: #8FD9D2;
+    --navbar-background: #ccc;
+    --card-image-background: #ccc;
+    --footer-background: #ccc;
+    --text-color: #393939;
+    --btn-nav: rgb(255, 81, 0);
+    --btn-text-color: white;
+    --btn-color-blue: #3c45f2;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 0;
 }
 
 html{
     width: 100vw;
     height: 100vh;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--color-background);
 }

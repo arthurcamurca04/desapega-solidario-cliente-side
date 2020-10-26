@@ -1,0 +1,32 @@
+.card-product-container{
+    background-color: var(--color-background);
+    border-radius: 8px;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.card-product-container .card-image-container{
+    height: 198px;
+    width: 198px;
+    background-color: var(--card-image-background);
+    padding: 16px 8px;
+    color: white;
+    text-align: justify;
+
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-product-container .card-image-container span{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
