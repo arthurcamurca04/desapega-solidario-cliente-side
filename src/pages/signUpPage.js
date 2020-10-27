@@ -4,11 +4,11 @@ import logoImg from "../assets/images/logo-desapega.png"
 import { FaGoogle, FaFacebookF } from "react-icons/fa"
 import "../styles/login&SignupPage.css"
 
-export default function LoginPage() {
+export default function SignUpPage() {
   return (
     <div className="login-container">
       <img src={logoImg} alt="" />
-      <h1>Acesse sua conta</h1>
+      <h1>Crie sua conta</h1>
 
       <button type="button" className="btn btn-facebook">
         <FaFacebookF size={16} />
@@ -21,20 +21,23 @@ export default function LoginPage() {
       <span>Ou</span>
 
       <form onSubmit={() => {}} method="post">
+        <label htmlFor="name">Nome</label>
+        <input type="name" name="name" id="name" />
+
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" />
 
-        <div className="password-container">
-          <label htmlFor="password">Senha</label>
-          <a href="http://#">Esqueceu sua senha?</a>
-        </div>
+        <label htmlFor="password">Senha</label>
+
         <input type="password" name="password" id="password" />
 
-        <button type="submit" className="btn btn-entry">Entrar</button>
+        <button type="submit" className="btn btn-entry">
+          Cadastrar
+        </button>
       </form>
 
       <span>
-        Não tem uma conta? <Link to="/signup">Cadastre-se</Link>
+        Já possui conta? <Link to="/login">Entrar</Link>
       </span>
     </div>
   );
