@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     
 }
 
@@ -29,4 +29,19 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 5px;
+}
+
+.card-product-container .card-body-container button{
+    background-color: var(--btn-color-blue);
+    color: var(--btn-text-color);
+    padding: 8px 16px;
+    border: none;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background .2s linear;
+}
+
+.card-product-container .card-body-container button:hover{
+    opacity: 90%;
 }

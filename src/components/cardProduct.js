@@ -12,7 +12,7 @@ export default function CardProduct() {
 
       <div className="card-body-container">
         <h3>Nome do produto</h3>
-        <span>R$: 0,00</span>
+        <button type="button">Mais detalhes</button>
       </div>
     </div>
   );
