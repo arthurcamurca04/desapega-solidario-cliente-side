@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logoImg from '../assets/images/logo-desapega.png'
 import { FiMessageSquare, FiUser, FiGrid } from 'react-icons/fi'
 import '../styles/navbar.css'
@@ -11,7 +12,7 @@ export default function Navbar(){
             <ul className="nav-menu">
                 <li><FiGrid size={16}/><a href="http://#">Meus anúncios</a></li>
                 <li><FiMessageSquare size={16}/><a href="http://#">Chat</a></li>
-                <li><FiUser size={16}/><a href="http://#">Entrar</a></li>
+                <li><FiUser size={16}/><Link to="/login">Entrar</Link></li>
                 <li><button type="button">Anunciar</button></li>
             </ul>
         </div>
