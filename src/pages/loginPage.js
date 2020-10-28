@@ -26,7 +26,7 @@ export default function LoginPage() {
 
         <div className="password-container">
           <label htmlFor="password">Senha</label>
-          <a href="http://#">Esqueceu sua senha?</a>
+          <Link to="/password/forgot">Esqueceu sua senha?</Link>
         </div>
         <input type="password" name="password" id="password" />
 

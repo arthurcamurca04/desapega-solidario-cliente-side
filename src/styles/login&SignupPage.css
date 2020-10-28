@@ -10,6 +10,11 @@ div.login-container{
     position: relative;
     top: 50px;
 }
+div.login-container p{
+    text-align: center;
+    margin: 0 16px;
+    font-size: 18px;
+}
 
 div.login-container a{
     text-decoration: none;
