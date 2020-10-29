@@ -5,6 +5,7 @@ import LoginPage from './pages/loginPage'
 import SignUpPage from './pages/signUpPage'
 import PasswordResetPage from './pages/passwordResetPage'
 import CodeRecoverPage from './pages/codeRecoverPage'
+import SearchPage from './pages/searchPage';
 
 export default function Routes(){
     return(
@@ -15,6 +16,7 @@ export default function Routes(){
                 <Route path="/signup" component={SignUpPage}></Route>
                 <Route path="/password/forgot" component={PasswordResetPage}></Route>
                 <Route path="/password/code/insert" component={CodeRecoverPage}></Route>
+                <Route path="/search" component={SearchPage}></Route>
             </Switch>
         </BrowserRouter>
     );
