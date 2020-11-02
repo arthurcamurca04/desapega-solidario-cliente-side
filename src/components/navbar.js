@@ -13,7 +13,7 @@ export default function Navbar(){
                 <li><FiGrid size={16}/><a href="http://#">Meus anúncios</a></li>
                 <li><FiMessageSquare size={16}/><a href="http://#">Chat</a></li>
                 <li><FiUser size={16}/><Link to="/login">Entrar</Link></li>
-                <li><button type="button">Anunciar</button></li>
+                <li><Link className="announcement-btn" to="/product/add">Anunciar</Link></li>
             </ul>
         </div>
     )

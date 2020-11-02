@@ -1,0 +1,117 @@
+div.container-create-product {
+  margin: 10px auto;
+  text-align: center;
+}
+div.container-create-product form {
+  margin: 10px auto;
+  padding: 26px;
+  background-color: var(--announcement-background);
+  width: 720px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+div.container-create-product form p{
+    color: #aaa;
+    text-align: left;
+}
+
+div.container-create-product form input {
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+div.container-create-product form textarea {
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+div.container-create-product form #title-description {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.container-create-product form .categories h3 {
+  text-align: left;
+}
+
+div.container-create-product form .categories .container {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+div.container-create-product form .categories .container div label {
+  margin-left: 5px;
+}
+
+div.container-create-product form .photos h3,
+div.container-create-product form .photos h5 {
+  text-align: left;
+}
+
+div.container-create-product form .photos .file-image {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border: 2px dotted var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container-create-product form .photos .file-image input[type="file"] {
+  display: none;
+}
+
+div.container-create-product form .photos .file-image p {
+  color: #ff5100;
+  font-weight: bold;
+}
+
+div.container-create-product form .localization-contact {
+  width: 400px;
+  padding: 16px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+div.container-create-product form .localization-contact div {
+  text-align: left;
+}
+
+div.container-create-product form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--btn-nav);
+    color: var(--btn-text-color);
+    font-weight: bold;
+    border: 1px solid var(--btn-nav);
+    cursor: pointer;
+    transition: background .2s linear;
+}
+
+div.container-create-product form button[type="submit"]:hover{
+    color: var(--btn-nav);
+    background-color: var(--btn-text-color);
+    border: 1px solid var(--btn-nav);
+
+}

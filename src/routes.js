@@ -6,6 +6,7 @@ import SignUpPage from './pages/signUpPage'
 import PasswordResetPage from './pages/passwordResetPage'
 import CodeRecoverPage from './pages/codeRecoverPage'
 import SearchPage from './pages/searchPage';
+import CreateProductPage from './pages/createProductPage';
 
 export default function Routes(){
     return(
@@ -17,6 +18,7 @@ export default function Routes(){
                 <Route path="/password/forgot" component={PasswordResetPage}></Route>
                 <Route path="/password/code/insert" component={CodeRecoverPage}></Route>
                 <Route path="/search" component={SearchPage}></Route>
+                <Route path="/product/add" component={CreateProductPage}></Route>
             </Switch>
         </BrowserRouter>
     );
