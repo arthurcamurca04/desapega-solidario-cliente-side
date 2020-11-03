@@ -31,17 +31,28 @@
     margin-top: 5px;
 }
 
-.card-product-container .card-body-container button{
-    background-color: var(--btn-color-blue);
-    color: var(--btn-text-color);
-    padding: 8px 16px;
-    border: none;
-    /* border-radius: 10px; */
-    cursor: pointer;
-    margin-top: 5px;
-    transition: background .2s linear;
+.card-product-container .card-body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.card-product-container .card-body-container button:hover{
+.card-product-container .card-body-container h3{
+    margin-bottom: 10px;
+}
+
+.card-product-container .card-body-container .button{
+    background-color: var(--btn-color-blue);
+    color: var(--btn-text-color);
+    padding: 6px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background .2s linear;
+    text-decoration: none;
+}
+
+.card-product-container .card-body-container .button:hover{
     opacity: 90%;
 }

@@ -3,9 +3,10 @@ div.container-create-product {
   text-align: center;
 }
 div.container-create-product form {
+  border-radius: 8px;
   margin: 10px auto;
   padding: 26px;
-  background-color: var(--announcement-background);
+  background-color: var(--login-container-background);
   width: 720px;
 
   display: flex;

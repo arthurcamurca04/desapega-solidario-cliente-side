@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logoImg from '../assets/images/logo-desapega.png'
+import logoImg from '../assets/images/desapega.png'
 import { FiMessageSquare, FiUser, FiGrid } from 'react-icons/fi'
 import '../styles/navbar.css'
 

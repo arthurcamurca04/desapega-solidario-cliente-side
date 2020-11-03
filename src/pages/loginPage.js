@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'react-router-dom'
-import logoImg from "../assets/images/logo-desapega.png"
+import logoImg from "../assets/images/desapega.png"
 import { FaGoogle, FaFacebookF } from "react-icons/fa"
 import "../styles/login&SignupPage.css"
 

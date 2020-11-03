@@ -1,15 +1,20 @@
 div.login-container{
-    height: 540px;
+    height: 580px;
     width: 450px;
     margin: auto;
-    background-color: var(--search-area-background);
+    background-color: var(--login-container-background);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: 50px;
+    top: 20px;
 }
+
+div.login-container img{
+    width: 180px;
+}
+
 div.login-container p{
     text-align: center;
     margin: 0 16px;

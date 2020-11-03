@@ -1,0 +1,121 @@
+div.product-details-container{
+    display: flex;
+    margin: 26px 36px;
+
+}
+
+div.product-details-container .product-details{
+    margin-right: 36px;
+}
+
+div.product-details-container .product-details .product-images{
+    display: flex;
+    margin: 16px 0;
+}
+
+div.product-details-container .product-details .product-images .left{
+    padding-right: 16px;
+    border-right: 1px solid #aaa;
+    cursor: pointer;
+}
+
+div.product-details-container .product-details .product-images .right{
+    padding-left: 16px;
+}
+
+div.product-details-container .product-details .product-images .left .image{
+    background-color: #aaa;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+div.product-details-container .product-details .product-images .right .image{
+    background-color: #aaa;
+     height: 290px;
+     width: 420px;
+     border-radius: 10px;
+}
+
+div.product-details-container .product-details .interactives-buttons{
+    margin: 10px 0;
+}
+
+div.product-details-container .product-details .interactives-buttons .button{
+    border: 1px solid #ff5100;
+    border-radius: 25px;
+    background-color: white;
+    color: #ff5100;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+div.product-details-container .product-details .interactives-buttons .button:hover{
+    background-color: #ff5100;
+    color: white;
+}
+
+div.product-details-container .product-details .details{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.product-details-container .product-details .details h4{
+    color: #aaa;
+}
+
+div.product-details-container .product-details .details span{
+    font-style: italic;
+    font-weight: 600;
+}
+
+div.product-details-container .donator-info{
+    margin-top: 52px;
+    height: 290px;
+    width: 230px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.product-details-container .donator-info div:first-child{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.product-details-container .donator-info .button{
+    border: 1px solid #ff5100;
+    border-radius: 25px;
+    background-color: #ff5100;
+    color: white;
+    padding: 5px 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+div.product-details-container .donator-info .button:hover{
+    background-color: white;
+    color:  #ff5100;
+}
+
+div.product-details-container .donator-info .profile a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+}

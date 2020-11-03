@@ -1,6 +1,7 @@
-import React from "react";
-import { FiCamera } from "react-icons/fi";
-import "../styles/cardProduct.css";
+import React from "react"
+import {Link} from "react-router-dom"
+import { FiCamera } from "react-icons/fi"
+import "../styles/cardProduct.css"
 
 export default function CardProduct() {
   return (
@@ -12,7 +13,7 @@ export default function CardProduct() {
 
       <div className="card-body-container">
         <h3>Nome do produto</h3>
-        <button type="button">Mais detalhes</button>
+        <Link className="button" to="/product/details">Mais detalhes</Link>
       </div>
     </div>
   );

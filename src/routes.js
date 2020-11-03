@@ -7,6 +7,7 @@ import PasswordResetPage from './pages/passwordResetPage'
 import CodeRecoverPage from './pages/codeRecoverPage'
 import SearchPage from './pages/searchPage';
 import CreateProductPage from './pages/createProductPage';
+import ProductDetailsPage from './pages/productDetailsPage';
 
 export default function Routes(){
     return(
@@ -19,6 +20,7 @@ export default function Routes(){
                 <Route path="/password/code/insert" component={CodeRecoverPage}></Route>
                 <Route path="/search" component={SearchPage}></Route>
                 <Route path="/product/add" component={CreateProductPage}></Route>
+                <Route path="/product/details" component={ProductDetailsPage}></Route>
             </Switch>
         </BrowserRouter>
     );
