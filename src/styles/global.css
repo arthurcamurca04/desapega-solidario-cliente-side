@@ -2,16 +2,17 @@
   font-size: 80%;
   --color-background: white;
   --login-container-background: #d9e5d6;
-  --announcement-background: #f06d31;
-  --search-area-background: #004e89;
-  --navbar-background: #d9e5d6;
+  --announcement-background: #8FD9D2;
+  --search-area-background: #008cff;
+  --navbar-background: #fafafa;
   --card-image-background: #ccc;
   --footer-background: #d9e5d6;
   --text-color: white;
   --text-color-dark: #393939;
   --btn-nav: #ff5100;
   --btn-text-color: white;
-  --btn-color-blue: #069c1a;
+  --btn-color-green: #069c1a;
+  --btn-color-blue: #008cff;
   --border-color: rgb(255, 81, 0);
 }
 

@@ -80,9 +80,13 @@ export default function SearchPage() {
                       <span>Produto sem imagem</span>
                     </div>
                   </div>
-                  <div className="item-name"><strong>Nome do item</strong></div>
+                  <div className="item-name">
+                    <strong>Nome do item</strong>
+                    <p>Patos/PB</p>
+                  </div>
                   <div className="item-time">
-                    <span>Hoje</span><br/>
+                    <span>Hoje</span>
+                    <br />
                     <span>12:00</span>
                   </div>
                 </div>
@@ -95,9 +99,13 @@ export default function SearchPage() {
                       <span>Produto sem imagem</span>
                     </div>
                   </div>
-                  <div className="item-name"><strong>Nome do item</strong></div>
+                  <div className="item-name">
+                    <strong>Nome do item</strong>
+                    <p>Piancó/PB</p>
+                  </div>
                   <div className="item-time">
-                    <span>23/out</span><br/>
+                    <span>23/out</span>
+                    <br />
                     <span>10:00</span>
                   </div>
                 </div>

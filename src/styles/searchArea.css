@@ -12,14 +12,15 @@ div.search-container div.search-area {
   width: 45%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
 div.search-container div.search-area button{
-  background-color: var(--btn-color-blue);
-  border: 2px solid var(--btn-color-blue);
+  background-color: var(--btn-color-green);
+  border: 2px solid var(--btn-color-green);
   padding: 5px 15px;
+  border-radius:  0 8px 8px 0;
   cursor: pointer;
   transition: background .2s linear;
 }
@@ -29,9 +30,10 @@ div.search-container div.search-area button:hover{
 }
 
 div.search-container div.search-area input {
-  width: 100%;
+  width: 80%;
   padding: 12px 10px;
   border: none;
+  border-radius: 8px 0 0 8px;
 }
 
 div.search-container ul {

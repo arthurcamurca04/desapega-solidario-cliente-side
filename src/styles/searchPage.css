@@ -1,123 +1,161 @@
-div.search-grid{
-
-    padding: 36px 26px;
-    display: flex;
+ajjdiv.search-grid {
+  padding: 36px 26px;
+  display: flex;
+  background-color: #fafafa;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-div.search-grid div.sidebar{
-    flex: 1;
+div.search-grid div.sidebar {
+  flex: 1;
 }
 
 div.search-grid div.sidebar div.search-area {
-    margin-bottom: 16px;
-    width: 252px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-bottom: 26px;
+  width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.search-grid div.sidebar div.search-area button {
+  width: 33%;
+  background-color: var(--btn-color-blue);
+  border: 1px solid var(--btn-color-blue);
+  padding: 6px 15px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+div.search-grid div.sidebar div.search-area button:hover {
+  opacity: 90%;
+}
+
+div.search-grid div.sidebar div.search-area input {
+  width: 66%;
+  padding: 12px 8px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  box-sizing: border-box;
+}
+
+div.search-grid div.sidebar div.search-area input:focus {
+  padding: 12px 8px;
+  border: 1px solid var(--btn-color-blue);
+}
+
+div.search-grid div.sidebar div.categories {
+  width: 252px;
+  height: 300px;
+  border: 1px solid #393939;
+  border-radius: 8px;
+}
+
+div.search-grid div.sidebar div.categories div.category-title {
+  background-color: #aaa;
+  padding: 12px;
+  border-radius: 8px 8px 0 0;
+}
+
+div.search-grid div.sidebar div.categories ul {
+  list-style: none;
+  padding: 12px;
+}
+
+div.search-grid div.sidebar div.categories ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0047ff;
+}
+
+div.search-grid div.sidebar div.categories ul li a span {
+  color: #bbb;
+}
+
+div.search-grid div.items-container {
+  flex: 5;
+  padding-left: 16px;
+}
+
+div.search-grid div.items-container div.items-container-top {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+div.search-grid div.items-container div.items-list ul {
+  list-style: none;
+}
+
+div.search-grid div.items-container div.items-list ul li {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+div.search-grid div.items-container div.items-list ul li div.item-tile {
+  display: flex;
+}
+
+div.search-grid
+  div.items-container div select{
+    padding: 3px 5px;
   }
-  
-  div.search-grid div.sidebar div.search-area button{
-    background-color: var(--btn-color-blue);
-    border: 1px solid var(--btn-color-blue);
-    padding: 5px 15px;
-    border-radius: 0 8px 8px 0;
-    cursor: pointer;
-    transition: background .2s linear;
-  }
-  
-  div.search-grid div.sidebar div.search-area button:hover{
-    opacity: 90%;
-  }
-  
-  div.search-grid div.sidebar div.search-area input {
-    padding: 12px 10px;
-    border: 1px solid var(--btn-color-blue);
-    border-radius: 8px 0 0 8px;
-  }
 
-div.search-grid div.sidebar div.categories{
-    width: 252px;
-    height: 300px;
-    border: 1px solid #393939;
-    border-radius: 8px;
-    
+div.search-grid
+  div.items-container
+  div.items-list
+  ul
+  li
+  div.item-tile
+  div.item-image {
+  border-radius: 10px;
+  background-color: #aaa;
+  flex: 2;
+  width: 300px;
+  height: 250px;
 }
 
-div.search-grid div.sidebar div.categories div.category-title{
-    background-color: #aaa;
-    padding: 12px;
-    border-radius: 8px 8px 0 0;
+div.search-grid
+  div.items-container
+  div.items-list
+  ul
+  li
+  div.item-tile
+  div.item-image
+  div {
+  background-color: #ddd;
+  color: #fff;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-div.search-grid div.sidebar div.categories ul{
-    list-style: none;
-    padding: 12px;
+div.search-grid
+  div.items-container
+  div.items-list
+  ul
+  li
+  div.item-tile
+  div.item-name {
+  flex: 3;
+  padding-left: 16px;
 }
-
-div.search-grid div.sidebar div.categories ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #0047ff;
-}
-
-div.search-grid div.sidebar div.categories ul li a span{
-    color: #bbb;
-}
-
-div.search-grid div.items-container{
-    flex: 5;
-    padding-left:16px;
-}
-
-div.search-grid div.items-container div.items-container-top{
-    padding-bottom:10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-}
-
-div.search-grid div.items-container div.items-list ul{
-    list-style: none;
-}
-
-div.search-grid div.items-container div.items-list ul li{
-    padding: 10px 0 10px 0;
-    border-bottom: 1px solid #ccc;
-}
-
-div.search-grid div.items-container div.items-list ul li div.item-tile{
-    display: flex; 
-}
-
-div.search-grid div.items-container div.items-list ul li div.item-tile div.item-image{
-    border-radius: 10px;
-    background-color: #aaa;
-    flex: 2;
-    width: 300px;
-    height: 250px;
-    
-}
-
-div.search-grid div.items-container div.items-list ul li div.item-tile div.item-image div{
-    background-color: #ddd;
-    color: #fff;
-    height: 250px;
-    width: 250px;
-    display: flex;
-    font-weight: bold;
-    font-size: 20px;
-    text-transform: uppercase;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-div.search-grid div.items-container div.items-list ul li div.item-tile div.item-name{
-    flex: 3;
-    padding-left: 10px;
-}
-div.search-grid div.items-container div.items-list ul li div.item-tile div.item-time{
-    flex: 1;
+div.search-grid
+  div.items-container
+  div.items-list
+  ul
+  li
+  div.item-tile
+  div.item-time {
+  flex: 1;
 }

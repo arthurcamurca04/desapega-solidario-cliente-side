@@ -40,13 +40,6 @@ div.login-container button.btn:hover{
     opacity: 90%;
 }
 
-div.login-container button.btn-facebook{
-    background-color: var(--btn-color-blue);
-}
-
-div.login-container button.btn-google{
-    background-color: #6D85FF;
-}
 
 div.login-container button.btn-entry{
     background-color:  rgb(255, 81, 0);

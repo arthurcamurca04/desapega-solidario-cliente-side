@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 import logoImg from "../assets/images/desapega.png"
-import { FaGoogle, FaFacebookF } from "react-icons/fa"
+import GoogleButton from 'react-google-button'
 import "../styles/login&SignupPage.css"
 
 export default function LoginPage() {
@@ -9,15 +9,9 @@ export default function LoginPage() {
     <div className="login-container">
       <img src={logoImg} alt="" />
       <h1>Acesse sua conta</h1>
-
-      <button type="button" className="btn btn-facebook">
-        <FaFacebookF size={16} />
-        <span>Entrar com o Facabook</span>
-      </button>
-      <button type="button" className="btn btn-google">
-        <FaGoogle size={16} />
-        <span>Entrar com o Google</span>
-      </button>
+      <GoogleButton type="dark" onClick={()=>{
+        console.log("Google button clicked")
+      }} label="Entrar com o Google"/>
       <span>Ou</span>
 
       <form onSubmit={() => {}} method="post">

@@ -43,7 +43,7 @@
 }
 
 .card-product-container .card-body-container .button{
-    background-color: var(--btn-color-blue);
+    background-color: var(--btn-color-green);
     color: var(--btn-text-color);
     padding: 6px 16px;
     border: none;
