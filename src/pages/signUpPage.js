@@ -12,7 +12,7 @@ export default function SignUpPage() {
 
       <GoogleButton type="dark" onClick={()=>{
         console.log("Google button clicked")
-      }} label="Entrar com o Goole"/>
+      }} label="Entrar com o Google"/>
 
       <form onSubmit={() => {}} method="post">
         <label htmlFor="name">Nome</label>
