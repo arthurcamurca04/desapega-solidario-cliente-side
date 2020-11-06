@@ -38,11 +38,11 @@ div.product-details-container .product-details .product-images .right .image{
      border-radius: 10px;
 }
 
-div.product-details-container .product-details .interactives-buttons{
+div.product-details-container .product-details .interactions-buttons{
     margin: 10px 0;
 }
 
-div.product-details-container .product-details .interactives-buttons .button{
+div.product-details-container .product-details .interactions-buttons .button{
     border: 1px solid #ff5100;
     border-radius: 25px;
     background-color: white;
@@ -53,7 +53,7 @@ div.product-details-container .product-details .interactives-buttons .button{
     transition: all .2s linear;
 }
 
-div.product-details-container .product-details .interactives-buttons .button:hover{
+div.product-details-container .product-details .interactions-buttons .button:hover{
     background-color: #ff5100;
     color: white;
 }

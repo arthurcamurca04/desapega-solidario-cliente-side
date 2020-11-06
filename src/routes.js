@@ -22,7 +22,7 @@ export default function Routes(){
                 <Route path="/search" component={SearchPage}></Route>
                 <Route path="/product/add" component={CreateProductPage}></Route>
                 <Route path="/product/details" component={ProductDetailsPage}></Route>
-                <Route path="/announcments" component={AnnouncementsPage}></Route>
+                <Route path="/announcements" component={AnnouncementsPage}></Route>
             </Switch>
         </BrowserRouter>
     );

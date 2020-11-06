@@ -49,10 +49,10 @@
     border: none;
     border-radius: 5px;
     margin-top: 5px;
-    transition: background .2s linear;
+    transition: all .2s linear;
     text-decoration: none;
 }
 
 .card-product-container .card-body-container .button:hover{
-    opacity: 90%;
+    background-color: var(--btn-color-green-light);
 }

@@ -28,7 +28,7 @@ export default function ProductDetailsPage() {
 
           <p>Bicicleta vermelha, aro 19, 6 meses de uso</p>
 
-          <div className="interactives-buttons">
+          <div className="interactions-buttons">
             <button type="button" className="button">
               <FiHeart />
               Favoritar

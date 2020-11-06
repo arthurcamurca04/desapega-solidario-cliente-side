@@ -10,8 +10,11 @@
   --text-color: white;
   --text-color-dark: #393939;
   --btn-nav: #ff5100;
+  --btn-color-orange: #ff5100;
+  --btn-color-orange-light: #ff5100e3;
   --btn-text-color: white;
   --btn-color-green: #069c1a;
+  --btn-color-green-light: rgba(6, 157, 26, 0.89);
   --btn-color-blue: #008cff;
   --border-color: rgb(255, 81, 0);
 }

@@ -33,11 +33,11 @@ div.login-container button.btn{
     border-radius: 25px;
     color: var(--btn-text-color);
     cursor: pointer;
-    transition: background .2s linear;
+    transition: all .2s linear;
 }
 
 div.login-container button.btn:hover{
-    opacity: 90%;
+    background-color: var(--btn-color-orange-light);
 }
 
 

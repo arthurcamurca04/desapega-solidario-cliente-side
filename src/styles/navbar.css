@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.nav-container img{
+.nav-container a img{
     margin-left: 26px;
     height: 52px;
 }

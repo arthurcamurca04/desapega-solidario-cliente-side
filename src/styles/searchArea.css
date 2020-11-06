@@ -26,7 +26,7 @@ div.search-container div.search-area button{
 }
 
 div.search-container div.search-area button:hover{
-  opacity: 90%;
+  background-color: var(--btn-color-green-light);
 }
 
 div.search-container div.search-area input {
