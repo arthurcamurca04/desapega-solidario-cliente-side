@@ -9,6 +9,7 @@ import SearchPage from './pages/searchPage';
 import CreateProductPage from './pages/createProductPage';
 import ProductDetailsPage from './pages/productDetailsPage';
 import AnnouncementsPage from './pages/announcementsPage';
+import ProfilePage from './pages/ProfilePage';
 
 export default function Routes(){
     return(
@@ -23,6 +24,7 @@ export default function Routes(){
                 <Route path="/product/add" component={CreateProductPage}></Route>
                 <Route path="/product/details" component={ProductDetailsPage}></Route>
                 <Route path="/announcements" component={AnnouncementsPage}></Route>
+                <Route path="/users/profile" component={ProfilePage}></Route>
             </Switch>
         </BrowserRouter>
     );
