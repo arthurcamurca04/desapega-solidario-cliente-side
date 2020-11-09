@@ -64,7 +64,7 @@ export default function ProductDetailsPage() {
           </div>
 
           <div className="profile">
-            <Link to="/user/profile">
+            <Link to="/users/profile">
               <FiUser /> Ver perfil do doador
             </Link>
           </div>

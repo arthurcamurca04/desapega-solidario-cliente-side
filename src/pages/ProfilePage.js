@@ -13,58 +13,52 @@ export default function ProfilePage() {
       <SearchArea />
       <div className="profile-container">
         <h1>Meu perfil</h1>
+        <div className="container">
+          <aside className="aside-menu">
+            <ul>
+              <li>
+                <FiClipboard size={16} />
+                <Link to="/"> Informações pessoais</Link>
+              </li>
+              <li>
+                <FiLock size={16} />
+                <Link to="/"> Segurança e privacidade</Link>
+              </li>
+            </ul>
+          </aside>
 
-        <aside className="aside-menu">
-          <ul>
-            <li>
-              <FiClipboard size={16} />
-              <Link to="/"> Informações pessoais</Link>
-            </li>
-            <li>
-              <FiLock size={16} />
-              <Link to="/"> Segurança e privacidade</Link>
-            </li>
-          </ul>
-        </aside>
+          <form onSubmit={() => {}} method="post">
+            <fieldset>
+              <legend>
+                <strong>Dados da conta</strong>
+              </legend>
 
-        <form onSubmit={() => {}} method="post">
-          <fieldset>
-            <legend>Dados da conta</legend>
+              <input type="text" name="name" id="name" placeholder="Nome completo"/>
+              
+              <input type="email" name="email" id="email" placeholder="E-mail"/>
 
-            <label htmlFor="name">Nome completo</label>
-            <input type="text" name="name" id="name" />
+              <input type="text" name="phone" id="phone" placeholder="Telefone"/>
 
-            <label htmlFor="email">E-mail</label>
-            <input type="email" name="email" id="email" />
+              <div className="address-location">
+                <div>
+                  <input type="text" name="street" id="street" placeholder="Rua"/>                  
+                  <input min="0" type="number" name="number" id="number" placeholder="Número" />
+                  <input type="text" name="complement" id="complement" placeholder="Complemento"/>
+                </div>
 
-            <label htmlFor="phone">Telefone</label>
-            <input type="text" name="phone" id="phone" />
-
-            <div className="address">
-              <label htmlFor="street">Rua</label>
-              <input type="text" name="street" id="street" />
-
-              <label htmlFor="number">Número</label>
-              <input type="number" name="number" id="number" />
-
-              <label htmlFor="complement">Complemento</label>
-              <input type="text" name="complement" id="complement" />
-
-              <label htmlFor="cep">CEP</label>
-              <input type="text" name="cep" id="cep" />
-
-              <label htmlFor="state">Estado</label>
-              <select name="state" id="state">
-                  <option value="0">Paraíba</option>
-              </select>
-
-              <label htmlFor="city">Cidade</label>
-              <input type="text" name="city" id="city"/>
-            </div>
-
+                <div>
+              
+                  <input type="text" name="cep" id="cep" placeholder="CEP"/>
+                  <select name="state" id="state">
+                    <option value="0">Paraíba</option>
+                  </select>
+                  <input type="text" name="city" id="city" placeholder="Cidade"/>
+                </div>
+              </div>
+            </fieldset>
             <button type="submit">Salvar alterações</button>
-          </fieldset>
-        </form>
+          </form>
+        </div>
       </div>
 
       <Footer />

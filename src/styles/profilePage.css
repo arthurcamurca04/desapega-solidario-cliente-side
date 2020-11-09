@@ -1,0 +1,95 @@
+div.profile-container{
+    width: 70%;
+    margin: auto;
+}
+
+div.profile-container div.container{
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: space-evenly;
+}
+
+div.profile-container div.container aside.aside-menu ul{
+    list-style: none;
+}
+
+div.profile-container div.container aside.aside-menu ul li{
+    margin-bottom: 10px;
+}
+
+div.profile-container div.container aside.aside-menu ul li a{
+   text-decoration: none;
+   color: black;
+}
+
+div.profile-container div.container form{
+    text-align: left;
+}
+
+div.profile-container div.container form fieldset{
+   width: 650px;
+   height:  350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+div.profile-container div.container form fieldset input, div.profile-container div.container form fieldset select{
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+div.profile-container div.container form fieldset div.address-location{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+div.profile-container div.container form fieldset div.address-location div:nth-child(1){
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 16px;
+}
+
+div.profile-container div.container form fieldset div.address-location div:nth-child(1) input:nth-child(1){
+   flex: 3;
+   margin-right: 5px;
+}
+div.profile-container div.container form fieldset div.address-location div:nth-child(1) input:nth-child(2){
+   margin-right: 5px;
+}
+div.profile-container div.container form fieldset div.address-location div:nth-child(1) input:nth-child(3){
+   flex: 2;
+}
+
+div.profile-container div.container form fieldset div.address-location div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+div.profile-container div.container form fieldset div.address-location div:nth-child(2) input:nth-child(1){
+    flex: 2;
+    margin-right: 5px;
+}
+div.profile-container div.container form fieldset div.address-location div:nth-child(2) select:nth-child(2){
+    margin-right: 5px;
+}
+
+div.profile-container div.container form button{
+    margin: 16px 0;
+    border-radius: 25px;
+    border: 1px solid var(--border-color);
+    background-color: var(--btn-color-orange);
+    padding: 10px 16px;
+    color: var(--text-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+div.profile-container div.container form button:hover{
+    border-radius: 25px;
+    border: 1px solid var(--border-color);
+    background-color: var(--btn-color-orange-light);
+}
