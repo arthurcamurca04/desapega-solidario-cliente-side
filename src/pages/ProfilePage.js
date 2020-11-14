@@ -18,11 +18,11 @@ export default function ProfilePage() {
             <ul>
               <li>
                 <FiClipboard size={16} />
-                <Link to="/"> Informações pessoais</Link>
+                <Link to="/users/profile"> Informações pessoais</Link>
               </li>
               <li>
                 <FiLock size={16} />
-                <Link to="/"> Segurança e privacidade</Link>
+                <Link to="/users/security"> Segurança e privacidade</Link>
               </li>
             </ul>
           </aside>

@@ -15,6 +15,7 @@
   --btn-text-color: white;
   --btn-color-green: #069c1a;
   --btn-color-green-light: rgba(6, 157, 26, 0.89);
+  --btn-color-danger: #be2323;
   --btn-color-blue: #008cff;
   --border-color: rgb(255, 81, 0);
 }
@@ -23,10 +24,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 0;
 }
 
-html {
+html, body, #root {
   width: 100vw;
   height: 100vh;
 }
@@ -34,6 +34,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   background-color: var(--color-background);
+  overflow-x: hidden;
 }
 
 input,

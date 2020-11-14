@@ -93,3 +93,29 @@ div.profile-container div.container form button:hover{
     border: 1px solid var(--border-color);
     background-color: var(--btn-color-orange-light);
 }
+
+div.profile-container div.container .security-container div{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+    padding: 8px 16px;
+    box-shadow: 2px 2px 5px 2px  rgba(0, 0, 0, 0.2)
+}
+
+div.profile-container div.container .security-container div p{
+    color: var(--text-color-dark);
+    margin-top: 5px;
+}
+
+div.profile-container div.container .security-container div button{
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--btn-color-green);
+    color: var(--btn-text-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+div.profile-container div.container .security-container div button.btn-danger{
+    background-color: var(--btn-color-danger);  
+}

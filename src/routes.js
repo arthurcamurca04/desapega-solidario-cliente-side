@@ -10,6 +10,7 @@ import CreateProductPage from './pages/createProductPage';
 import ProductDetailsPage from './pages/productDetailsPage';
 import AnnouncementsPage from './pages/announcementsPage';
 import ProfilePage from './pages/ProfilePage';
+import SecurityPage from './pages/Security&PrivacyPage';
 
 export default function Routes(){
     return(
@@ -25,6 +26,7 @@ export default function Routes(){
                 <Route path="/product/details" component={ProductDetailsPage}></Route>
                 <Route path="/announcements" component={AnnouncementsPage}></Route>
                 <Route path="/users/profile" component={ProfilePage}></Route>
+                <Route path="/users/security" component={SecurityPage}></Route>
             </Switch>
         </BrowserRouter>
     );
