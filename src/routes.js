@@ -11,6 +11,7 @@ import ProductDetailsPage from './pages/productDetailsPage';
 import AnnouncementsPage from './pages/announcementsPage';
 import ProfilePage from './pages/ProfilePage';
 import SecurityPage from './pages/Security&PrivacyPage';
+import ChangePasswordPage from './pages/ChangePasswordPage';
 
 export default function Routes(){
     return(
@@ -20,6 +21,7 @@ export default function Routes(){
                 <Route path="/login" component={LoginPage}></Route>
                 <Route path="/signup" component={SignUpPage}></Route>
                 <Route path="/password/forgot" component={PasswordResetPage}></Route>
+                <Route path="/password/update" component={ChangePasswordPage}></Route>
                 <Route path="/password/code/insert" component={CodeRecoverPage}></Route>
                 <Route path="/search" component={SearchPage}></Route>
                 <Route path="/product/add" component={CreateProductPage}></Route>

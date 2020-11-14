@@ -41,3 +41,22 @@ input,
 textarea {
   font-family: "Nunito", sans-serif;
 }
+
+.modal-btn{
+  margin-top: 8px;
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: none;
+  
+  color: var(--btn-text-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-btn-danger{
+  background-color: var(--btn-color-danger); 
+}
+.modal-btn-primary{
+  background-color: var(--btn-color-blue);
+  margin-left: 8px; 
+}
