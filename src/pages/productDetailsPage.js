@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import { FiHeart, FiShare2, FiUser } from "react-icons/fi";
+import Modal from "react-modal";
+import { FiHeart, FiShare2, FiUser, FiMail, FiPhone } from "react-icons/fi";
 import "../styles/productDetails.css";
 import { Link } from "react-router-dom";
 
 export default function ProductDetailsPage() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  function openModal() {
+    setModalIsOpen(true);
+  }
+
+  function closeModal() {
+    setModalIsOpen(false);
+  }
+
   return (
     <div>
       <Navbar />
@@ -60,7 +70,9 @@ export default function ProductDetailsPage() {
             <h2>Arthur</h2>
             <strong>Status: Ativo</strong>
 
-            <button className="button">Contato</button>
+            <button onClick={openModal} className="button">
+              Contato
+            </button>
           </div>
 
           <div className="profile">
@@ -70,6 +82,40 @@ export default function ProductDetailsPage() {
           </div>
         </div>
       </div>
+
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={{
+          overlay: {
+            backgroundColor: "rgba(0,0,0,0.4)",
+          },
+          content: {
+            top: "50%",
+            left: "50%",
+            right: "auto",
+            bottom: "auto",
+            marginRight: "-50%",
+            transform: "translate(-50%, -50%)",
+            borderRadius: "8px",
+            backgroundColor: "#8FD9D2",
+
+          },
+        }}
+      >
+        <h1>Contato</h1>
+        <h2>Gabriel</h2>
+
+        <span><FiMail size={18}/> <strong>gabriel@gmail.com</strong></span><br/>
+        <span><FiPhone size={18}/> <strong>(83)9-9999-9999</strong></span><br/>
+        <button
+          className="modal-btn modal-btn-danger"
+          onClick={closeModal}
+          type="button"
+        >
+          Fechar
+        </button>
+      </Modal>
       <Footer />
     </div>
   );
