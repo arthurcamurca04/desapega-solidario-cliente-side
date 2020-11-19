@@ -41,7 +41,7 @@ export default function Routes(){
                 <Route path="/password/code/insert" component={CodeRecoverPage}></Route>
                 <Route path="/search" component={SearchPage}></Route>
                 <Route path="/product/details" component={ProductDetailsPage}></Route>
-                <Route path="/announcements" component={AnnouncementsPage}></Route>
+                <PrivateRoute path="/announcements" component={AnnouncementsPage}></PrivateRoute>
                 <PrivateRoute path="/product/add" component={CreateProductPage}></PrivateRoute>
                 <PrivateRoute path="/users/profile" component={ProfilePage}></PrivateRoute>
                 <PrivateRoute path="/users/security" component={SecurityPage}></PrivateRoute>
