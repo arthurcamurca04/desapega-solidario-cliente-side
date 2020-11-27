@@ -47,7 +47,7 @@ export default function LoginPage() {
   }
   return (
     <div className="login-container">
-      <img src={logoImg} alt="" />
+      <Link to="/"><img src={logoImg} alt="Desapega" /></Link>
       <h1>Acesse sua conta</h1>
       <GoogleButton
         type="dark"

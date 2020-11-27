@@ -35,7 +35,7 @@ export default function SignUpPage() {
   
   return (
     <div className="login-container">
-      <img src={logoImg} alt="" />
+      <Link to="/"><img src={logoImg} alt="" /></Link>
       <h1>Crie sua conta</h1>
 
       <GoogleButton
